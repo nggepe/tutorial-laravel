@@ -7,6 +7,31 @@
   <title>Document</title>
 </head>
 <body>
-  Hello About
+  <table>
+    
+    <tbody>
+      <tr>
+        <td>Nama Web </td>
+        <td> : </td>
+        <td>
+         <?php echo $webname ?>
+        </td>   
+      </tr>
+      <tr>
+        <td>Pemilik Web </td>
+        <td> : </td>
+        <td>
+          <?php echo $owner ?>
+         </td>
+      </tr>
+      <tr>
+        <td>Usia web </td>
+        <td> : </td>
+        <td>
+          <?php echo $usiaweb ?>
+         </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>

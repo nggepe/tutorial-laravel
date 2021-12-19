@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('about', array(
+        "webname" => "gepcode.com",
+        "owner" => "Gilang Pratama",
+        "usiaweb" => "7 Bulan"
+    ));
 });

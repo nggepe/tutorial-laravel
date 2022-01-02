@@ -1,4 +1,21 @@
 @extends('layout.main')
 @section('content')
-    hello world
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nama</th>
+            <th>Usia</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach ($users as $item) {{-- contoh looping --}}
+            <tr>
+                <td>{{ $item['id'] }}</td>
+                <td>{{ $item['name'] }}</td>
+                <td>{{ $item['age'] }} Tahun</td>
+            </tr>
+        @endforeach
+    </tbody>
+</table>
 @endsection

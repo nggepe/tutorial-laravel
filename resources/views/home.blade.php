@@ -9,7 +9,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($users as $item) {{-- contoh looping --}}
+        @foreach ($employee as $item) {{-- contoh looping --}}
             <tr>
                 <td>{{ $item['id'] }}</td>
                 <td>{{ $item['name'] }}</td>
